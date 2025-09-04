@@ -15,10 +15,10 @@ return new class extends Migration
         Schema::create('user_wallets', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->foreignUuid('user_id');
-            $table->amount('balance', 20, 2)->default(0);
-            $table->amount('bonus', 20, 2)->default(0);
-            $table->amount('comission', 20, 2)->default(0);
-            $table->amount('rollover', 20, 2)->default(0);
+            $table->decimal('balance', 20, 2)->default(0);
+            $table->decimal('bonus', 20, 2)->default(0);
+            $table->decimal('comission', 20, 2)->default(0);
+            $table->decimal('rollover', 20, 2)->default(0);
             $table->timestamps();
         });
     }

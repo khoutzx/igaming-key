@@ -44,5 +44,18 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/vendor/mobile-detect.js"></script>
+        <script src="js/vendor/createjs.min.js"></script>
+        <script src="js/vendor/TweenMax.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/mobile.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/init.js"></script>
     </body>
 </html>
