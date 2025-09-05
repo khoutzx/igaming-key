@@ -2,4 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::inertia('/', 'Home');
+Route::inertia('/', 'Game');
+Route::inertia('/registrar', 'Register');

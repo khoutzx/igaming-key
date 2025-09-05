@@ -1,62 +1,13 @@
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-html,button,input,select,textarea {
-color:#222;
-}
-html {
-font-size:1em;
-line-height:1.4;
-}
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
 ::-moz-selection {
-background: #b3d4fc;
-text-shadow: none;
-}
-::selection {
-background: #b3d4fc;
-text-shadow: none;
-}
-/*
- * A better looking default horizontal rule
- */
-hr {
-display: block;
-height: 1px;
-border: 0;
-border-top: 1px solid #ccc;
-margin: 1em 0;
-padding: 0;
-}
-/*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
-audio,canvas,img,video {
-vertical-align:middle;
-}
-/*
- * Remove default fieldset styles.
- */
-fieldset {
-border:0;
-margin:0;
-padding:0;
-}
-/*
- * Allow only vertical resizing of textareas.
- */
-textarea {
-resize:vertical;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
-/* ==========================================================================
-   Main styles
-   ========================================================================== */
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
 @font-face {
     font-family: 'shumiregular';
     src: url('fonts/shumi-webfont.eot');
@@ -79,7 +30,6 @@ resize:vertical;
          url('fonts/01_digitall-webfont.svg#digitallregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html{ -webkit-user-select: none; -ms-user-select: none; user-select: none; background:#0A1529;}
@@ -103,7 +53,6 @@ html{ -webkit-user-select: none; -ms-user-select: none; user-select: none; backg
 @-moz-keyframes spin { 50% { -moz-transform: rotate(0deg); } 100% { -moz-transform: rotate(0deg); } }
 @-webkit-keyframes spin { 50% { -webkit-transform: rotate(90deg); } 100% { -webkit-transform: rotate(0deg); } }
 @keyframes spin { 50% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } 100% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } }
-
 
 /*-- Canvas Wrapper -- */
 #canvasHolder{ display:none; width:100%; max-width:768px; height:100%; margin:auto; position:relative;}
